@@ -11,7 +11,7 @@
         <v-card>
             <v-card-title>
                 <span>Liste des Sondages</span>
-                <v-btn color="red lighten-2" dark style="margin-left: 20px;" @click="dialog = true">Ajouter</v-btn>
+                <v-btn color="info" dark style="margin-left: 20px;" @click="dialog = true">Ajouter</v-btn>
                 <v-spacer/>
                 <v-text-field
                     v-model="search"

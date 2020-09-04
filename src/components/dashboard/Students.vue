@@ -12,7 +12,7 @@
         <v-card>
             <v-card-title>
                 <span>Liste des Etudiants</span>
-                <v-btn color="red lighten-2" dark style="margin-left: 20px;" @click="dialog = true">Ajouter</v-btn>
+                <v-btn color="info" dark style="margin-left: 20px;" @click="dialog = true">Ajouter</v-btn>
                 <v-spacer/>
                 <v-text-field
                     v-model="search"
@@ -90,7 +90,7 @@
                     { text: "Prenoms", value: "user.firstName" },
                     { text: "Matricule", value: "matricule" },
                     { text: "Classe", value: "classe.name" },
-                    { text: "Date d'inscription", value: "createDateTime" },
+                    { text: "Date d'inscription", value: "createDateTime" }
                 ],
                 students: [],
                 studentForm: {

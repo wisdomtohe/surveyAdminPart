@@ -12,7 +12,7 @@
         <v-card>
             <v-card-title>
                 <span>Liste des Utilisateurs</span>
-                <v-btn color="red lighten-2" dark style="margin-left: 20px;" @click="dialog = true">Ajouter</v-btn>
+                <v-btn color="info" dark style="margin-left: 20px;" @click="dialog = true">Ajouter</v-btn>
                 <v-spacer/>
                 <v-text-field
                     v-model="search"
@@ -108,9 +108,7 @@
                     { text: "Prénoms", align: "start", sortable: false, value: "firstName"},
                     { text: "Pseudo", value: "userName" },
                     { text: "telephone", value: "phone" },
-                    { text: "Email", value: "email" },
-                    // { text: "Date d'ajout", value: "createDateTime" },
-                    // { text: "Date de modification", value: "modDateTime" },
+                    { text: "Email", value: "email" }
                 ],
                 users: [],
                 userForm: {

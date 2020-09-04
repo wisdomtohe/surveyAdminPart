@@ -81,9 +81,7 @@
                 headers: [
                     { text: "ID", align: "start", sortable: true, value: "id"},
                     { text: "Libéllé", value: "libelle" },
-                    { text: "Contenu", value: "contenu" },
-                    { text: "Date d'ajout", value: "createDateTime" },
-                    { text: "Date de modification", value: "modDateTime" },
+                    { text: "Contenu", value: "contenu" }
                 ],
                 questions: [],
                 questionForm: {

@@ -11,7 +11,7 @@
                     <v-btn color="white" text @click="snackbar = false">Close</v-btn>
                 </v-snackbar>
 
-                <v-snackbar color="green darken-2" timeout="3000"  v-model="success_snackbar" :multi-line="true">
+                <v-snackbar color="green darken-2" timeout="5000"  v-model="success_snackbar" :multi-line="true">
                     Vos réponses ont bien été enrégistrés Merci de votre participation!
                 </v-snackbar>
             </div>

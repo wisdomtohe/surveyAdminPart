@@ -13,6 +13,8 @@ import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import ListSurvey from "../views/ListSurvey";
 import SurveyQuestions from "../views/SurveyQuestions";
+import QuestionsForJpope from "../views/QuestionsForJpope";
+import QuestionsForJpIp from "../views/QuestionsForJpIp";
 import Students from "../components/dashboard/Students";
 import Teachers from "../components/dashboard/Teachers";
 import Terms from "../components/dashboard/Terms";
@@ -109,6 +111,16 @@ const routes = [
     path: '/surveys',
     name: 'listSurveys',
     components: {default: ListSurvey, header: Header, footer: Footer}
+  },
+  {
+    path: '/rating/jpope',
+    name: 'rateProjects',
+    components: {default: QuestionsForJpope, header: Header, footer: Footer}
+  },
+  {
+    path: '/rating/jpopep',
+    name: 'rateProjects',
+    components: {default: QuestionsForJpIp, footer: Footer}
   },
   {
     path: '/surveyQuestions/:id',

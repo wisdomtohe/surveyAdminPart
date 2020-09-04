@@ -160,7 +160,7 @@
         <div class="py-12"></div>
       </section>
 
-      <section id="stats">
+      <!-- <section id="stats">
         <v-parallax
           :height="$vuetify.breakpoint.smAndDown ? 700 : 500"
           :src="images.parallax"
@@ -188,7 +188,7 @@
             </v-row>
           </v-container>
         </v-parallax>
-      </section>
+      </section> -->
 
       <!-- <section id="blog">
         <div class="py-12"></div>

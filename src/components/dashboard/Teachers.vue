@@ -12,7 +12,7 @@
         <v-card>
             <v-card-title>
                 <span>Liste des Enseignants</span>
-                <v-btn color="red lighten-2" dark style="margin-left: 20px;" @click="dialog = true">Ajouter</v-btn>
+                <v-btn color="info" dark style="margin-left: 20px;" @click="dialog = true">Ajouter</v-btn>
                 <v-spacer/>
                 <v-text-field
                     v-model="search"
@@ -88,9 +88,7 @@
                     { text: "Nom", align: "start", sortable: true, value: "user.lastName"},
                     { text: "Prénoms", align: "start", sortable: true, value: "user.firstName"},
                     { text: "Nom d'utilisateur", value: "user.userName" },
-                    { text: "Matricule", value: "matricule" },
-                    { text: "Date d'ajout", value: "createDateTime" },
-                    { text: "Date de modification", value: "modDateTime" },
+                    { text: "Matricule", value: "matricule" }
                 ],
                 teachers: [],
                 teacherForm: {

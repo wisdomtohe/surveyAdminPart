@@ -11,7 +11,7 @@
         <v-card>
             <v-card-title>
                 <span>Liste des Filières</span>
-                <v-btn color="red lighten-2" dark style="margin-left: 20px;" @click="dialog = true">Ajouter</v-btn>
+                <v-btn color="info" dark style="margin-left: 20px;" @click="dialog = true">Ajouter</v-btn>
                 <v-spacer/>
                 <v-text-field
                     v-model="search"
@@ -79,9 +79,7 @@
                 headers: [
                     { text: "ID", align: "start", sortable: true, value: "id"},
                     { text: "Code", sortable: true, value: "code"},
-                    { text: "Nom", value: "name" },
-                    { text: "Date d'ajout", sortable: true, value: "createDateTime" },
-                    { text: "Date de modification", sortable: true, value: "modDateTime" },
+                    { text: "Nom", value: "name" }
                 ],
                 terms: [],
                 termForm: {

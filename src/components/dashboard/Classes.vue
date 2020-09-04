@@ -11,7 +11,7 @@
         <v-card>
             <v-card-title>
                 <span>Liste des Classes</span>
-                <v-btn color="red lighten-2" dark style="margin-left: 20px;" @click="dialog = true">Ajouter</v-btn>
+                <v-btn color="info" dark style="margin-left: 20px;" @click="dialog = true">Ajouter</v-btn>
                 <v-spacer/>
                 <v-text-field
                     v-model="search"
@@ -85,9 +85,7 @@
                     { text: "ID", align: "start", sortable: true, value: "id"},
                     { text: "Code", sortable: true, value: "code" },
                     { text: "Nom", sortable: true, value: "name" },
-                    { text: "Filière", sortable: true, value: "filiere.name" },
-                    { text: "Date d'ajout", value: "createDateTime" },
-                    { text: "Date de modification", value: "modDateTime" },
+                    { text: "Filière", sortable: true, value: "filiere.name" }
                 ],
                 classes: [],
                 classeForm: {

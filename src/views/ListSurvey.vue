@@ -26,7 +26,6 @@
 
                 <v-row>
                     <v-col cols="12">
-                        <!-- <v-row v-if=""></v-row> -->
                         <v-row align="center" justify="center" class="grey lighten-5">
                             <Survey v-for="survey in surveys" :key="survey.id" :survey="survey" class="survey"/>
                         </v-row>
@@ -137,58 +136,7 @@
                 selected:[0],
                 surveys: [],
 
-                passed_surveys: [
-                    //     {
-                    //     "id": 1,
-                    //     "createDateTime": "2020-07-05T22:16:51.000+0000",
-                    //     "modDateTime": "1970-12-31T23:01:31.000+0000",
-                    //     "code":"SV-001",
-                    //     "libelle": "Evaluation du cours de Base de donnee",
-                    //     "description": "il s'agit d'avoir un retour sur le bon fonctionnement des cours de Base de donnee",
-                    //     "beginDate": "2018-04-05T04:27:23.000+0000",
-                    //     "endDate": "2020-07-06T20:55:13.000+0000"
-                    // },
-                    //     {
-                    //     "id": 2,
-                    //     "createDateTime": "2020-07-05T22:16:51.000+0000",
-                    //     "modDateTime": "1970-12-31T23:01:31.000+0000",
-                    //     "code":"SV-002",
-                    //     "libelle": "Evaluation du cours de Base de donnee",
-                    //     "description": "il s'agit d'avoir un retour sur le bon fonctionnement des cours de Base de donnee",
-                    //     "beginDate": "2018-04-05T04:27:23.000+0000",
-                    //     "endDate": "2020-07-06T20:55:13.000+0000"
-                    // },
-                    //     {
-                    //     "id": 3,
-                    //     "createDateTime": "2020-07-05T22:16:51.000+0000",
-                    //     "modDateTime": "1970-12-31T23:01:31.000+0000",
-                    //     "code":"SV-003",
-                    //     "libelle": "Evaluation du cours de Base de donnee",
-                    //     "description": "il s'agit d'avoir un retour sur le bon fonctionnement des cours de Base de donnee",
-                    //     "beginDate": "2018-04-05T04:27:23.000+0000",
-                    //     "endDate": "2020-07-06T20:55:13.000+0000"
-                    // },
-                    //     {
-                    //     "id": 4,
-                    //     "createDateTime": "2020-07-05T22:16:51.000+0000",
-                    //     "modDateTime": "1970-12-31T23:01:31.000+0000",
-                    //     "code":"SV-004",
-                    //     "libelle": "Evaluation du cours de Base de donnee",
-                    //     "description": "il s'agit d'avoir un retour sur le bon fonctionnement des cours de Base de donnee",
-                    //     "beginDate": "2018-04-05T04:27:23.000+0000",
-                    //     "endDate": "2020-07-06T20:55:13.000+0000"
-                    // },
-                    //     {
-                    //     "id": 5,
-                    //     "createDateTime": "2020-07-05T22:16:51.000+0000",
-                    //     "modDateTime": "1970-12-31T23:01:31.000+0000",
-                    //     "code":"SV-005",
-                    //     "libelle": "Evaluation du cours de Base de donnee",
-                    //     "description": "il s'agit d'avoir un retour sur le bon fonctionnement des cours de Base de donnee",
-                    //     "beginDate": "2018-04-05T04:27:23.000+0000",
-                    //     "endDate": "2020-07-06T20:55:13.000+0000"
-                    // },
-                ],
+                passed_surveys: [],
             };
         },
 
