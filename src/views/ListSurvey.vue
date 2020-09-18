@@ -59,7 +59,7 @@
                                 >
                                 <template v-for="(item, index) in passed_surveys">
                             <v-list-item :key="item.id">
-                                <template v-slot:default="{ active, toggle }">
+                                <template >
                                 <v-list-item-content>
                                     <v-list-item-title v-text="item.code"></v-list-item-title>
                                     <v-list-item-subtitle class="text--primary" v-text="item.libelle"></v-list-item-subtitle>
@@ -68,8 +68,16 @@
 
                                 <v-list-item-action>
                                     <v-list-item-action-text v-text="`${item.modDateTime.slice(8,10)}-${item.modDateTime.slice(5,7)}-${item.modDateTime.slice(0,4)} à ${item.modDateTime.slice(11,16)}`"></v-list-item-action-text>
+                                        <v-btn
+                                            color="green darken-1"
+                                            text
+                                            @click="dialog = true"
+                                        >
                                         <v-icon>mdi-star-circle</v-icon>
+                                            </v-btn>
                                 </v-list-item-action>
+                                
+                                </template>
                                 <v-dialog
                                         v-model="dialog"
                                         max-width="290"
@@ -102,7 +110,6 @@
                                             </v-card-actions>
                                         </v-card>
                                         </v-dialog>
-                                </template>
                             </v-list-item>
                                 <v-divider
                                     v-if="index + 1 < passed_surveys.length"
@@ -137,6 +144,7 @@
                 surveys: [],
 
                 passed_surveys: [],
+                dialog:false
             };
         },
 

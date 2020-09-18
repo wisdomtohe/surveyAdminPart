@@ -11,6 +11,8 @@
         <sidebar-link to="/admin/teachers" name="Professeurs" icon="ti-user"/>
         <sidebar-link to="/admin/questions" name="Questions" icon="ti-help"/>
         <sidebar-link to="/admin/surveys" name="Sondages" icon="ti-layout-list-thumb"/>
+        <sidebar-link to="/admin/votes" name="Votes JPOPE" icon="ti-bar-chart"/>
+        <sidebar-link to="/admin/resultats" name="Resultats" icon="ti-bar-chart"/>
       </template>
       <mobile-menu>
         <li class="nav-item">
@@ -19,16 +21,6 @@
             <p>Stats</p>
           </a>
         </li>
-        <!-- <drop-down class="nav-item"
-                   title="5 Notifications"
-                   title-classes="nav-link"
-                   icon="ti-bell">
-          <a class="dropdown-item">Notification 1</a>
-          <a class="dropdown-item">Notification 2</a>
-          <a class="dropdown-item">Notification 3</a>
-          <a class="dropdown-item">Notification 4</a>
-          <a class="dropdown-item">Another notification</a>
-        </drop-down> -->
         <li class="nav-item">
           <a class="nav-link">
             <i class="ti-settings"></i>

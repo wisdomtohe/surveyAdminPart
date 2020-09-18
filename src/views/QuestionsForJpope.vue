@@ -83,7 +83,7 @@
                                                 <v-col cols="3">
                                                 <v-img
                                                     class="elevation-6"
-                                                    src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
+                                                    :src="images.CS"
                                                     height="30"
                                                     width="30"
                                                 ></v-img>
@@ -121,7 +121,7 @@
                                                 <v-col cols="3">
                                                 <v-img
                                                     class="elevation-6"
-                                                    src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
+                                                    :src="images.MK"
                                                     height="30"
                                                     width="30"
                                                 ></v-img>
@@ -159,7 +159,7 @@
                                                 <v-col cols="3">
                                                 <v-img
                                                     class="elevation-6"
-                                                    src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
+                                                    :src="images.AH"
                                                     height="30"
                                                     width="30"
                                                 ></v-img>
@@ -196,7 +196,7 @@
                                                 <v-col cols="3">
                                                 <v-img
                                                     class="elevation-6"
-                                                    src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
+                                                    :src="images.PG"
                                                     height="30"
                                                     width="30"
                                                 ></v-img>
@@ -234,7 +234,7 @@
                                                 <v-col cols="3">
                                                 <v-img
                                                     class="elevation-6"
-                                                    src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
+                                                    :src="images.DH"
                                                     height="30"
                                                     width="30"
                                                 ></v-img>
@@ -325,7 +325,7 @@
                                                 <v-col cols="3">
                                                 <v-img
                                                     class="elevation-6"
-                                                    src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
+                                                    :src="images.DI"
                                                     height="30"
                                                     width="30"
                                                 ></v-img>
@@ -363,7 +363,7 @@
                                                 <v-col cols="3">
                                                 <v-img
                                                     class="elevation-6"
-                                                    src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
+                                                    :src="images.CI"
                                                     height="30"
                                                     width="30"
                                                 ></v-img>
@@ -401,7 +401,7 @@
                                                 <v-col cols="3">
                                                 <v-img
                                                     class="elevation-6"
-                                                    src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
+                                                    :src="images.TI"
                                                     height="30"
                                                     width="30"
                                                 ></v-img>
@@ -439,7 +439,7 @@
                                                 <v-col cols="3">
                                                 <v-img
                                                     class="elevation-6"
-                                                    src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
+                                                    :src="images.SI"
                                                     height="30"
                                                     width="30"
                                                 ></v-img>
@@ -478,7 +478,7 @@
                                                 <v-col cols="3">
                                                 <v-img
                                                     class="elevation-6"
-                                                    src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
+                                                    :src="images.NS"
                                                     height="30"
                                                     width="30"
                                                 ></v-img>
@@ -527,6 +527,18 @@
         name: "QuestionsJpope",
         data: function() {
             return {
+                images:{
+                    AH: require('../assets/img/jpope/AH.png'),
+                    CI: require('../assets/img/jpope/CI.png'),
+                    CS: require('../assets/img/jpope/CS.png'),
+                    DH: require('../assets/img/jpope/DH.png'),
+                    DI: require('../assets/img/jpope/DI.png'),
+                    MK: require('../assets/img/jpope/MK.png'),
+                    NS: require('../assets/img/jpope/NS.png'),
+                    PG: require('../assets/img/jpope/PG.png'),
+                    SI: require('../assets/img/jpope/SI.png'),
+                    TI: require('../assets/img/jpope/TI.png'),
+                },
                 answer:{
                     course_survey:0,
                     doctor_help:0,
@@ -569,7 +581,7 @@
                         reponduA: new Date()
                     };
 
-                this.$http.post(`http://10.200.116.242:8080/jpope/save`, data, {
+                this.$http.post(`http://localhost:8080/jpope/save`, data, {
                         params:{},
                         headers: {
                             'Content-Type': 'application/json',
@@ -577,6 +589,7 @@
                     }).then(response => {
 
                         console.log(response);
+                        this.$router.push('/admin/resultats')
                         
                     }, response => {
                         console.log("error", response);

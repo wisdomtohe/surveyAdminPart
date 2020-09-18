@@ -4,6 +4,7 @@ import NotFound from "@/pages/NotFoundPage.vue";
 
 // Admin pages
 import Dashboard from "@/pages/Dashboard.vue";
+import DashboardJpope from "@/pages/DashboardJpope.vue";
 import UserProfile from "@/pages/UserProfile.vue";
 import Notifications from "@/pages/Notifications.vue";
 import Home from '../views/Home.vue'
@@ -44,6 +45,16 @@ const routes = [
         path: "dashboard",
         name: "dashboard",
         component: Dashboard
+      },
+      {
+        path: "resultats",
+        name: "resultats",
+        component: DashboardJpope
+      },
+      {
+        path: "votes",
+        name: "votes",
+        component: QuestionsForJpope
       },
       {
         path: "stats",

@@ -90,7 +90,7 @@
                     { text: "Prenoms", value: "user.firstName" },
                     { text: "Matricule", value: "matricule" },
                     { text: "Classe", value: "classe.name" },
-                    { text: "Date d'inscription", value: "createDateTime" }
+                    { text: "Date d'inscription", value: "createDateTime" },
                 ],
                 students: [],
                 studentForm: {
